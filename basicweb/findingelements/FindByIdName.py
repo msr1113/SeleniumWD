@@ -16,6 +16,9 @@ class FindIdName():
         if elementByName is not None:
             print("we found an element by name")
 
+        driver.get("https://www.yahoo.com/")
+        driver.find_element_by_class_name("_yb_1mve9")
+
 
 ff = FindIdName()
 ff.test()
